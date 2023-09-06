@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <script src="bd.js" defer></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section id="root">
+      <form id="datos_usuario">
+        <!-- <input onkeypress="hola()" onkeydown="hola()" onkeyup="hola()" type="text" name="usuario"> -->
+        <input type="text" name="usuario" placeholder="usuario">
+        <input type="text" name="contrasena" placeholder="contraseña">
+        <!-- <button onclick="hola()" id="accion">Login</button> -->
+      </form>
+      <button id="accion" class="controls form-controls accionable">Login</button>
+    </section>
+    <section id="perfilUsuario"></section>
+  </body>
+</html>
